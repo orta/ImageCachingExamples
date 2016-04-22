@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49FDD4F25A1C8AD88EA697FD /* Pods_ImageCachingExamplesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF98DA817F8F08871A0124D /* Pods_ImageCachingExamplesTests.framework */; };
+		600E64B61CCA649900182B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600E64B51CCA649900182B88 /* AppDelegate.swift */; };
+		600E64B81CCA649900182B88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600E64B71CCA649900182B88 /* ViewController.swift */; };
+		600E64BB1CCA649900182B88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600E64B91CCA649900182B88 /* Main.storyboard */; };
+		600E64BD1CCA649900182B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600E64BC1CCA649900182B88 /* Assets.xcassets */; };
+		600E64C01CCA649900182B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600E64BE1CCA649900182B88 /* LaunchScreen.storyboard */; };
+		600E64CB1CCA649900182B88 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600E64CA1CCA649900182B88 /* ViewControllerTests.swift */; };
+		600E64DA1CCA6CCB00182B88 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600E64D51CCA691100182B88 /* UIImage+Color.swift */; };
+		600E64DB1CCA6CCF00182B88 /* UIImageView+ImageDownloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600E64D71CCA6C6300182B88 /* UIImageView+ImageDownloading.swift */; };
+		96E7B1696825F5BE63261CA2 /* Pods_ImageCachingExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F580BBFDB62B25D192FEAA /* Pods_ImageCachingExamples.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		600E64C71CCA649900182B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 600E64AA1CCA649900182B88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 600E64B11CCA649900182B88;
+			remoteInfo = ImageCachingExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F580BBFDB62B25D192FEAA /* Pods_ImageCachingExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageCachingExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A4C636BC3CBA6497F9E3739 /* Pods-ImageCachingExamplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCachingExamplesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageCachingExamplesTests/Pods-ImageCachingExamplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34EBEE460BE0BC5B61550156 /* Pods-ImageCachingExamplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCachingExamplesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageCachingExamplesTests/Pods-ImageCachingExamplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		600E64B21CCA649900182B88 /* ImageCachingExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCachingExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		600E64B51CCA649900182B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		600E64B71CCA649900182B88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		600E64BA1CCA649900182B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		600E64BC1CCA649900182B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		600E64BF1CCA649900182B88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		600E64C11CCA649900182B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600E64C61CCA649900182B88 /* ImageCachingExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCachingExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		600E64CA1CCA649900182B88 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		600E64CC1CCA649900182B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		600E64D51CCA691100182B88 /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Color.swift"; path = "ImageCachingExamplesTests/UIImage+Color.swift"; sourceTree = SOURCE_ROOT; };
+		600E64D71CCA6C6300182B88 /* UIImageView+ImageDownloading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+ImageDownloading.swift"; path = "ImageCachingExamplesTests/UIImageView+ImageDownloading.swift"; sourceTree = SOURCE_ROOT; };
+		650244BCC6665A804767877D /* Pods-ImageCachingExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCachingExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageCachingExamples/Pods-ImageCachingExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		8941F6E9894F349EBA190979 /* Pods-ImageCachingExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCachingExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageCachingExamples/Pods-ImageCachingExamples.release.xcconfig"; sourceTree = "<group>"; };
+		FAF98DA817F8F08871A0124D /* Pods_ImageCachingExamplesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageCachingExamplesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600E64AF1CCA649900182B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E7B1696825F5BE63261CA2 /* Pods_ImageCachingExamples.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600E64C31CCA649900182B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDD4F25A1C8AD88EA697FD /* Pods_ImageCachingExamplesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DF1144B42CC0A8155847ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF98DA817F8F08871A0124D /* Pods_ImageCachingExamplesTests.framework */,
+				04F580BBFDB62B25D192FEAA /* Pods_ImageCachingExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600E64A91CCA649900182B88 = {
+			isa = PBXGroup;
+			children = (
+				600E64B41CCA649900182B88 /* ImageCachingExamples */,
+				600E64C91CCA649900182B88 /* ImageCachingExamplesTests */,
+				600E64B31CCA649900182B88 /* Products */,
+				6D5732C44765E680AB04940F /* Pods */,
+				4DF1144B42CC0A8155847ED1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		600E64B31CCA649900182B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				600E64B21CCA649900182B88 /* ImageCachingExamples.app */,
+				600E64C61CCA649900182B88 /* ImageCachingExamplesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600E64B41CCA649900182B88 /* ImageCachingExamples */ = {
+			isa = PBXGroup;
+			children = (
+				600E64D91CCA6CC200182B88 /* Extensions */,
+				600E64B51CCA649900182B88 /* AppDelegate.swift */,
+				600E64B71CCA649900182B88 /* ViewController.swift */,
+				600E64B91CCA649900182B88 /* Main.storyboard */,
+				600E64BC1CCA649900182B88 /* Assets.xcassets */,
+				600E64BE1CCA649900182B88 /* LaunchScreen.storyboard */,
+				600E64C11CCA649900182B88 /* Info.plist */,
+			);
+			path = ImageCachingExamples;
+			sourceTree = "<group>";
+		};
+		600E64C91CCA649900182B88 /* ImageCachingExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				600E64CA1CCA649900182B88 /* ViewControllerTests.swift */,
+				600E64CC1CCA649900182B88 /* Info.plist */,
+			);
+			path = ImageCachingExamplesTests;
+			sourceTree = "<group>";
+		};
+		600E64D91CCA6CC200182B88 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				600E64D51CCA691100182B88 /* UIImage+Color.swift */,
+				600E64D71CCA6C6300182B88 /* UIImageView+ImageDownloading.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6D5732C44765E680AB04940F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C636BC3CBA6497F9E3739 /* Pods-ImageCachingExamplesTests.debug.xcconfig */,
+				34EBEE460BE0BC5B61550156 /* Pods-ImageCachingExamplesTests.release.xcconfig */,
+				650244BCC6665A804767877D /* Pods-ImageCachingExamples.debug.xcconfig */,
+				8941F6E9894F349EBA190979 /* Pods-ImageCachingExamples.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600E64B11CCA649900182B88 /* ImageCachingExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600E64CF1CCA649900182B88 /* Build configuration list for PBXNativeTarget "ImageCachingExamples" */;
+			buildPhases = (
+				BEA530376C91BB5B101C6546 /* 📦 Check Pods Manifest.lock */,
+				600E64AE1CCA649900182B88 /* Sources */,
+				600E64AF1CCA649900182B88 /* Frameworks */,
+				600E64B01CCA649900182B88 /* Resources */,
+				C8C8501B515E4986A8944E0D /* 📦 Embed Pods Frameworks */,
+				57529EF9A02C798A5AD01EBD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCachingExamples;
+			productName = ImageCachingExamples;
+			productReference = 600E64B21CCA649900182B88 /* ImageCachingExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		600E64C51CCA649900182B88 /* ImageCachingExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600E64D21CCA649900182B88 /* Build configuration list for PBXNativeTarget "ImageCachingExamplesTests" */;
+			buildPhases = (
+				69311E711250B15CFF6F5FD4 /* 📦 Check Pods Manifest.lock */,
+				600E64C21CCA649900182B88 /* Sources */,
+				600E64C31CCA649900182B88 /* Frameworks */,
+				600E64C41CCA649900182B88 /* Resources */,
+				894905B7C04FD96633289146 /* 📦 Embed Pods Frameworks */,
+				E054D33BA2B0E45464069768 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				600E64C81CCA649900182B88 /* PBXTargetDependency */,
+			);
+			name = ImageCachingExamplesTests;
+			productName = ImageCachingExamplesTests;
+			productReference = 600E64C61CCA649900182B88 /* ImageCachingExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600E64AA1CCA649900182B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ORT;
+				TargetAttributes = {
+					600E64B11CCA649900182B88 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					600E64C51CCA649900182B88 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 600E64B11CCA649900182B88;
+					};
+				};
+			};
+			buildConfigurationList = 600E64AD1CCA649900182B88 /* Build configuration list for PBXProject "ImageCachingExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 600E64A91CCA649900182B88;
+			productRefGroup = 600E64B31CCA649900182B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600E64B11CCA649900182B88 /* ImageCachingExamples */,
+				600E64C51CCA649900182B88 /* ImageCachingExamplesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600E64B01CCA649900182B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600E64C01CCA649900182B88 /* LaunchScreen.storyboard in Resources */,
+				600E64BD1CCA649900182B88 /* Assets.xcassets in Resources */,
+				600E64BB1CCA649900182B88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600E64C41CCA649900182B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57529EF9A02C798A5AD01EBD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageCachingExamples/Pods-ImageCachingExamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69311E711250B15CFF6F5FD4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		894905B7C04FD96633289146 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageCachingExamplesTests/Pods-ImageCachingExamplesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA530376C91BB5B101C6546 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8C8501B515E4986A8944E0D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageCachingExamples/Pods-ImageCachingExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E054D33BA2B0E45464069768 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageCachingExamplesTests/Pods-ImageCachingExamplesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600E64AE1CCA649900182B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600E64B81CCA649900182B88 /* ViewController.swift in Sources */,
+				600E64DB1CCA6CCF00182B88 /* UIImageView+ImageDownloading.swift in Sources */,
+				600E64B61CCA649900182B88 /* AppDelegate.swift in Sources */,
+				600E64DA1CCA6CCB00182B88 /* UIImage+Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600E64C21CCA649900182B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600E64CB1CCA649900182B88 /* ViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		600E64C81CCA649900182B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 600E64B11CCA649900182B88 /* ImageCachingExamples */;
+			targetProxy = 600E64C71CCA649900182B88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		600E64B91CCA649900182B88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600E64BA1CCA649900182B88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		600E64BE1CCA649900182B88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600E64BF1CCA649900182B88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		600E64CD1CCA649900182B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		600E64CE1CCA649900182B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		600E64D01CCA649900182B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650244BCC6665A804767877D /* Pods-ImageCachingExamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageCachingExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.orta.ImageCachingExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		600E64D11CCA649900182B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8941F6E9894F349EBA190979 /* Pods-ImageCachingExamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageCachingExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.orta.ImageCachingExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		600E64D31CCA649900182B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4C636BC3CBA6497F9E3739 /* Pods-ImageCachingExamplesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageCachingExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.orta.ImageCachingExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageCachingExamples.app/ImageCachingExamples";
+			};
+			name = Debug;
+		};
+		600E64D41CCA649900182B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34EBEE460BE0BC5B61550156 /* Pods-ImageCachingExamplesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageCachingExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.orta.ImageCachingExamplesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageCachingExamples.app/ImageCachingExamples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600E64AD1CCA649900182B88 /* Build configuration list for PBXProject "ImageCachingExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600E64CD1CCA649900182B88 /* Debug */,
+				600E64CE1CCA649900182B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600E64CF1CCA649900182B88 /* Build configuration list for PBXNativeTarget "ImageCachingExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600E64D01CCA649900182B88 /* Debug */,
+				600E64D11CCA649900182B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600E64D21CCA649900182B88 /* Build configuration list for PBXNativeTarget "ImageCachingExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600E64D31CCA649900182B88 /* Debug */,
+				600E64D41CCA649900182B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 600E64AA1CCA649900182B88 /* Project object */;
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageCachingExamples" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT AUGUSTE RODIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IH8-vj-CsC">
+                                <rect key="frame" x="96" y="28" width="223" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="223" id="Vr7-sU-uYW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="160" translatesAutoresizingMaskIntoConstraints="NO" id="egL-C6-Yb5">
+                                <rect key="frame" x="234" y="87" width="160" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="J1V-ZE-Wqq"/>
+                                </constraints>
+                                <string key="text">Known as one of the most gifted figurative sculptors in history, Auguste Rodin made such iconic works of art as The Kiss (1880-1881), The Thinker (1881-1882), and The Burghers of Calais (1884-1895).</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F1x-SF-zBV">
+                                <rect key="frame" x="20" y="87" width="186" height="323"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="aKd-0u-f80"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ql7-RA-eWu">
+                                <rect key="frame" x="214" y="520" width="180" height="239"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y1x-8p-rrN">
+                                <rect key="frame" x="20" y="520" width="186" height="274"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="op3-ur-Lxr">
+                                <rect key="frame" x="234" y="369" width="160" height="41"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                <state key="normal" title="FOLLOW">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OTHER WORKS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0M-Du-fBC">
+                                <rect key="frame" x="96" y="464" width="223" height="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="egL-C6-Yb5" secondAttribute="trailing" id="9D2-ZQ-U7R"/>
+                            <constraint firstItem="IH8-vj-CsC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="AFd-sa-tne"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="F1x-SF-zBV" secondAttribute="leading" id="JCn-ab-R2x"/>
+                            <constraint firstItem="egL-C6-Yb5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="P7w-H1-YFY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IH8-vj-CsC" secondAttribute="trailing" constant="75" id="QfI-V1-qWr"/>
+                            <constraint firstItem="F1x-SF-zBV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="67" id="Qtn-J3-F0L"/>
+                            <constraint firstItem="egL-C6-Yb5" firstAttribute="top" secondItem="IH8-vj-CsC" secondAttribute="bottom" constant="5" id="gOy-kP-cTw"/>
+                            <constraint firstItem="egL-C6-Yb5" firstAttribute="top" secondItem="F1x-SF-zBV" secondAttribute="bottom" constant="-323" id="ncm-3X-ZRu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IH8-vj-CsC" secondAttribute="trailing" id="o3g-dd-QDH"/>
+                            <constraint firstItem="IH8-vj-CsC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="omH-Mh-J2a"/>
+                            <constraint firstItem="egL-C6-Yb5" firstAttribute="leading" secondItem="F1x-SF-zBV" secondAttribute="trailing" constant="28" id="vzo-9h-te3"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="o3g-dd-QDH"/>
+                                <exclude reference="omH-Mh-J2a"/>
+                                <exclude reference="9D2-ZQ-U7R"/>
+                                <exclude reference="gOy-kP-cTw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="primaryImageView" destination="F1x-SF-zBV" id="Ift-JQ-HKV"/>
+                        <outlet property="secondaryImageView" destination="Y1x-8p-rrN" id="sjV-Tw-GOq"/>
+                        <outlet property="tertiaryImageView" destination="Ql7-RA-eWu" id="kx1-HD-obO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95" y="199"/>
+        </scene>
+    </scenes>
+</document>

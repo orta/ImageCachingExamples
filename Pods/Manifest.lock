@@ -1,0 +1,41 @@
+PODS:
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - Nimble (4.0.1)
+  - Nimble-Snapshots (4.0.1):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble
+    - Quick
+  - Quick (0.9.2)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (from `https://github.com/orta/ios-snapshot-test-case.git`)
+  - Nimble-Snapshots
+  - Quick
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  FBSnapshotTestCase:
+    :git: https://github.com/orta/ios-snapshot-test-case.git
+
+CHECKOUT OPTIONS:
+  FBSnapshotTestCase:
+    :commit: 6b3e8978084388f9aae392fd1e0e21b1ddb88ae3
+    :git: https://github.com/orta/ios-snapshot-test-case.git
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 68c3221ddd3bf5bbe783c1015f8acc12c3768a4d
+  Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
+  Nimble-Snapshots: 2d15a585b816f7d14947ed6e172218f9d0980ea8
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+PODFILE CHECKSUM: 67172d9ed1db23235205ad125f06fa40357ca64c
+
+COCOAPODS: 1.0.0.beta.8
