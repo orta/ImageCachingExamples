@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Take the URLs and set them
+        // Take the addresses and set the imageview's images asycnhronously
         primaryImageView.or_setImageWithURL(NSURL(string:imageOneAddress)!)
         secondaryImageView.or_setImageWithURL(NSURL(string:imageTwoAddress)!)
         tertiaryImageView.or_setImageWithURL(NSURL(string:imageThreeAddress)!)
